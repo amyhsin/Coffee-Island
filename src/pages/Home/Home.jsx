@@ -20,8 +20,6 @@ import standingSign from "../../assets/home/standingSign.png";
 import carousel1 from "../../assets/home/carousel1.png";
 import carousel2 from "../../assets/home/carousel2.png";
 import carousel3 from "../../assets/home/carousel3.png";
-import arrowLeft from "../../assets/home/arrowLeft.svg";
-import arrowRight from "../../assets/home/arrowRight.svg";
 import textBg from "../../assets/home/textBg.png";
 import north from "../../assets/home/northTW.svg";
 import beitou from "../../assets/home/district/beitou.svg";
@@ -40,8 +38,6 @@ import monsterD from "../../assets/home/monster-d.svg";
 import monsterE from "../../assets/home/monster-e.svg";
 import monsterL from "../../assets/home/monster-l.svg";
 import monsterH from "../../assets/home/monster-h.svg";
-//../../assets/home/monster-h.svg
-import avatar from "../../assets/home/avatar.png";
 import viceBanner from "../../assets/home/viceBanner.png";
 import carImg from "../../assets/home/scooter-little.svg";
 import { gsap } from "gsap";

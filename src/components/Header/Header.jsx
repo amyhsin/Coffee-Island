@@ -64,12 +64,12 @@ function Header() {
       icon: "ham_map.png",
       hover: "ham_map_hover.png",
     },
-    {
-      name: "news",
-      path: `${base}news`,
-      icon: "ham_news.png",
-      hover: "ham_news_hover.png",
-    },
+    // {
+    //   name: "news",
+    //   path: `${base}news`,
+    //   icon: "ham_news.png",
+    //   hover: "ham_news_hover.png",
+    // },
     {
       name: "products",
       path: `${base}products`,
@@ -226,14 +226,14 @@ function Header() {
                 <NavLink to={`${base}#map`} className={s.navItem}>
                   {t(`header.map`)}
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   to={`${base}news`}
                   className={({ isActive }) =>
                     isActive ? `${s.navItem} ${s.active}` : s.navItem
                   }
                 >
                   {t(`header.news`)}
-                </NavLink>
+                </NavLink> */}
                 <NavLink
                   to={`${base}products`}
                   className={({ isActive }) =>
